@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow an example environment file
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated datasets
+data/raw/*
+data/processed/*
+
+# Keep placeholders for empty directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models and generated outputs
+models/*
+!models/.gitkeep
+
+# Editor and OS files
+.vscode/
+.DS_Store
